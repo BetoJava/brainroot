@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+Never try to access, check or other operation on .env files. Assume they are well configured.
+You can't access, read or edit .env files. Don't try to, just tell to the user what to do. Assume that the .env files exist and just say "I assume that the .env are well configured"

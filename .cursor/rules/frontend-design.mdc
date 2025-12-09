@@ -1,0 +1,6 @@
+---
+alwaysApply: false
+---
+- Lorsqu'on créer une page, il faut la créer dans @components/, dans un dossier qui contiendra les composants de la page, et qui sera appelée dans page.tsx du router. 
+- Utilise shadcn/ui, et les couleurs définies dans @globals.css
+- Si un composant de shadcn/ui n'est pas installé, installe le avec `pnpm dlx shadcn@latest add`
